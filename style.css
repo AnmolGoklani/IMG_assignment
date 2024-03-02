@@ -21,6 +21,7 @@
   .image{
     position: relative;
     max-width: 100%;
+    
   }
   .image img.colored{
     position: absolute;
@@ -107,23 +108,28 @@
   .designers{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
+    align-content: space-around;
     width: 100vw;
-    background-color: rgba(81, 131, 184, 1);
+    background: linear-gradient(180deg, white 30% ,rgba(0, 103, 179, 0.8) 0.52%, #5183B8 17.71%, #5183B8 55.73%, white 0%);
+
   }
 
   .developers{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
+    align-content: space-around;
     flex-wrap: wrap;
     width: 100vw;
-    background-color: rgba(81, 131, 184, 1);
+    background: linear-gradient(180deg, white 30% ,rgba(0, 103, 179, 0.8) 0.52%, #5183B8 17.71%, #5183B8 55.73%, white 0%);
   }
 
-  .designers img:hover{
-    src : "images/designers_colored/Mask group (1).png";
+  .image{
+    display: inline-block;
+    width: 15.63rem; 
+    height: 21rem;
   }
 
   .end{
